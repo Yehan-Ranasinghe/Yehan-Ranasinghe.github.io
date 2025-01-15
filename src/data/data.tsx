@@ -104,7 +104,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I’m a third-year Computer Science and AI student at HKUST with a knack for turning ideas into reality through code. 
+  description: `Just a chill guy. I’m a third-year Computer Science and AI student at HKUST with a knack for turning ideas into reality through code. 
   I’m passionate about creating intuitive, scalable solutions, blending technical know-how with a sharp business sense. 
   When I’m not building apps or exploring AI, you’ll find me diving into cultural adventuresor working on the next big startup idea. 
   I’m all about collaboration, creativity, and making tech fun, impactful, and accessible!`,
@@ -273,10 +273,17 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'Sep 2022 - Present (June 2026)',
+    location: 'The Hong Kong University of Science and Technology (HKUST)',
+    title: 'BEng of Computer Science and AI + minor in Business',
+    content: (
+      <p>
+        {' '}
+        At HKUST, I mastered the essentials of Computer Science and AI, dove into algorithms, programming, and
+        tech-business strategy, and got hands-on with tools like Python and AWS. Beyond classes, hackathons and research
+        were my playground, shaping me into a creative problem-solver ready for real-world challenges
+      </p>
+    ),
   },
   {
     date: 'March 2003',
