@@ -203,7 +203,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Smart Charge – 1st Runner-Up (Student Stream)',
     description: '',
-    url: '',
+    url: 'https://www.gs1hk.org/sites/default/files/2024-05/2024_IOT_Data_Hackathon_E-brochure.pdf',
     image: porfolioImage1,
   },
   {
