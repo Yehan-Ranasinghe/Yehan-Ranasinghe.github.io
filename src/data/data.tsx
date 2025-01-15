@@ -104,16 +104,17 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I’m a third-year Computer Science and AI student at HKUST with a knack for turning ideas into reality through code. 
+  I’m passionate about creating intuitive, scalable solutions, blending technical know-how with a sharp business sense. 
+  When I’m not building apps or exploring AI, you’ll find me diving into cultural adventuresor working on the next big startup idea. 
+  I’m all about collaboration, creativity, and making tech fun, impactful, and accessible!`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Clear Water Bay, Hong Kong', Icon: MapIcon},
+    {label: 'Age', text: '20', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Sri Lankan', Icon: FlagIcon},
+    {label: 'Interests', text: 'Cars, Golf, Reading', Icon: SparklesIcon},
+    {label: 'Study', text: 'The Hong Kong University of Science and Technology (HKUST)', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Student | ex Cybersecurity intern at KPMG', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,16 +126,20 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
+        name: 'Sinhala',
+        level: 10,
+      },
+      {
         name: 'English',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Spanish',
+        level: 6,
       },
       {
-        name: 'Spanish',
-        level: 3,
+        name: 'Mandarin',
+        level: 2,
       },
     ],
   },
