@@ -104,10 +104,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Just a chill guy. I’m a third-year Computer Science and AI student at HKUST with a knack for turning ideas into reality through code. 
-  I’m passionate about creating intuitive, scalable solutions, blending technical know-how with a sharp business sense. 
-  When I’m not building apps or exploring AI, you’ll find me diving into cultural adventures or working on the next big startup idea. 
-  I’m all about collaboration, creativity, and making tech fun, impactful, and accessible!`,
+  description: `Hey there! I’m a third-year Computer Science and AI student at HKUST, 
+  with a passion for transforming ideas into innovative solutions through code.
+  I specialize in building intuitive, scalable systems that merge technical expertise with business insight.
+  Whether I’m developing apps, diving into AI, or brainstorming the next big startup idea, 
+    I’m always focused on creating impactful tech that’s both fun and accessible. Outside of coding,
+     I love exploring different cultures and collaborating on exciting projects. Let’s connect and make something great together!`,
   aboutItems: [
     {label: 'Location', text: 'Clear Water Bay, Hong Kong', Icon: MapIcon},
     {label: 'Age', text: '20', Icon: CalendarIcon},
@@ -309,9 +311,9 @@ export const experience: TimelineItem[] = [
     title: 'Cyber Security and Technology Risk Summer Intern - Advisory',
     content: (
       <p>
-        As an ethical hacker, I executed simulation attacks, penetration testing, and security reviews, investigated
-        vulnerabilities like SQL injection and XSS, and collaborated on cloud security and DevSecOps transformations. I
-        also advised CISOs on enhancing cybersecurity through optimized organizational structures.
+        Conducted ethical hacking simulations, penetration tests, and security reviews, identifying vulnerabilities like
+        SQL injection and XSS. Collaborated on cloud security and DevSecOps transformations, and provided strategic
+        cybersecurity guidance to CISOs to enhance organizational defenses.
       </p>
     ),
   },
@@ -329,10 +331,10 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        Developed iOS mobile applications with ReactJS and React Native, focusing on seamless user experiences and
-        integrating backend services like AWS Amplify. Enhanced app performance, reliability, and efficiency by
-        addressing bugs and optimizing features while aligning UI/UX planning with business strategies. Ensured all
-        solutions were user-friendly, reliable, and scalable using Swift, TypeScript, and DevOps practices.
+        Developed user-centric iOS applications using ReactJS and React Native, integrating backend services like AWS
+        Amplify. Improved app performance and reliability by addressing bugs, optimizing features, and aligning UI/UX
+        designs with business strategies. Leveraged Swift, TypeScript, and DevOps tools to ensure scalability and
+        usability.
       </p>
     ),
   },
@@ -350,10 +352,10 @@ export const experience: TimelineItem[] = [
     title: 'Software Engineer',
     content: (
       <p>
-        Optimized search accuracy and data retrieval efficiency by 10% using a fuzzy search algorithm on DB collections.
-        Improved user experience by coordinating backend and frontend services (JSON, REST, SQL, Kotlin, Java) and
-        developing a React dashboard demo with Plotly’s AI/ML capabilities. Gained hands-on experience with AWS
-        technologies, including S3, Lambda, CloudWatch, AWS instances, and Shell scripting with Python.
+        Enhanced data retrieval efficiency by 10% with a fuzzy search algorithm. Improved user experience by integrating
+        backend and frontend services (JSON, REST, SQL, Kotlin, Java) and creating a React dashboard powered by Plotly's
+        AI/ML tools. Gained expertise in AWS technologies, including S3, Lambda, CloudWatch, and Shell scripting with
+        Python.
       </p>
     ),
   },
