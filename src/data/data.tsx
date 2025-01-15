@@ -27,6 +27,8 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+//import resume from '../assets/resume.pdf';
+
 import {
   About,
   ContactSection,
@@ -106,7 +108,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `Just a chill guy. I’m a third-year Computer Science and AI student at HKUST with a knack for turning ideas into reality through code. 
   I’m passionate about creating intuitive, scalable solutions, blending technical know-how with a sharp business sense. 
-  When I’m not building apps or exploring AI, you’ll find me diving into cultural adventuresor working on the next big startup idea. 
+  When I’m not building apps or exploring AI, you’ll find me diving into cultural adventures or working on the next big startup idea. 
   I’m all about collaboration, creativity, and making tech fun, impactful, and accessible!`,
   aboutItems: [
     {label: 'Location', text: 'Clear Water Bay, Hong Kong', Icon: MapIcon},
@@ -168,11 +170,11 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 7,
       },
       {
-        name: 'Golang',
+        name: 'Rust',
         level: 4,
       },
     ],
@@ -185,8 +187,8 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Java',
+        level: 6,
       },
       {
         name: 'Swift',
@@ -201,15 +203,16 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Smart Charge – 1st Runner-Up (Student Stream)',
+    description: '',
+    url: '',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Smart Charge – 1st Runner-Up (Student Stream)',
+    description:
+      'Our team developed Smart Charge, a scalable solution for optimizing EV charging management and user experience. It addresses issues like underutilized stations, misuse, and imbalanced AC/DC chargers. Key features include dynamic pricing for optimal utilization, real-time availability checks, reservation systems, and integration with smart grids to promote sustainability. Smart Charge enhances profitability for property managers and affordability for users, paving the way for a greener future in EV charging.',
+    url: 'https://www.gs1hk.org/sites/default/files/2024-05/2024_IOT_Data_Hackathon_E-brochure.pdf',
     image: porfolioImage2,
   },
   {
