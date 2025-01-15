@@ -278,7 +278,6 @@ export const education: TimelineItem[] = [
     title: 'BEng of Computer Science and AI + minor in Business',
     content: (
       <p>
-        {''}
         At HKUST, I’ve mastered the boring basics and dived into the exciting stuff-algorithms, programming, and all
         things AI. From hackathons to hands-on projects, it’s been a journey of turning theories into real-world
         problem-solving.
@@ -298,10 +297,10 @@ export const experience: TimelineItem[] = [
     date: 'June 2024 - July 2024',
     location: (
       <a
+        className="text-blue-900 font-bold text-lg hover:text-blue-700"
         href="https://home.kpmg/"
-        target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-900 font-bold text-lg hover:text-blue-700">
+        target="_blank">
         KPMG, China
       </a>
     ),
@@ -318,10 +317,10 @@ export const experience: TimelineItem[] = [
     date: 'March 2024 - May 2024',
     location: (
       <a
+        className="text-blue-900 font-bold text-lg hover:text-blue-700"
         href="https://www.metalympics.org/"
-        target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-900 font-bold text-lg hover:text-blue-700">
+        target="_blank">
         Metalympics Limited, Hong Kong
       </a>
     ),
@@ -339,10 +338,10 @@ export const experience: TimelineItem[] = [
     date: 'December 2023 - January 2024',
     location: (
       <a
+        className="text-blue-900 font-bold text-lg hover:text-blue-700"
         href="https://www.oxbridge-econ.com"
-        target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-900 font-bold text-lg hover:text-blue-700">
+        target="_blank">
         Oxbridge Economics Limited, Hong Kong
       </a>
     ),
