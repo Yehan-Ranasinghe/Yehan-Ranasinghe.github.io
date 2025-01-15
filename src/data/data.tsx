@@ -148,15 +148,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 9,
+        level: 8,
       },
       {
         name: 'Typescript',
-        level: 7,
+        level: 6,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Angular',
+        level: 5,
       },
     ],
   },
@@ -278,41 +278,81 @@ export const education: TimelineItem[] = [
     title: 'BEng of Computer Science and AI + minor in Business',
     content: (
       <p>
-        {' '}
-        At HKUST, I mastered the essentials of Computer Science and AI, dove into algorithms, programming, and
-        tech-business strategy, and got hands-on with tools like Python and AWS. Beyond classes, hackathons and research
-        were my playground, shaping me into a creative problem-solver ready for real-world challenges
+        {''}
+        At HKUST, I’ve mastered the boring basics and dived into the exciting stuff-algorithms, programming, and all
+        things AI. From hackathons to hands-on projects, it’s been a journey of turning theories into real-world
+        problem-solving.
       </p>
     ),
   },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
+  // {
+  //   date: 'March 2003',
+  //   location: 'School of Business',
+  //   title: 'What did you study 101',
+  //   content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  // },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'June 2024 - July 2024',
+    location: (
+      <a
+        href="https://home.kpmg/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-900 font-bold text-lg hover:text-blue-700">
+        KPMG, China
+      </a>
+    ),
+    title: 'Cyber Security and Technology Risk Summer Intern - Advisory',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        As an ethical hacker, I executed simulation attacks, penetration testing, and security reviews, investigated
+        vulnerabilities like SQL injection and XSS, and collaborated on cloud security and DevSecOps transformations. I
+        also advised CISOs on enhancing cybersecurity through optimized organizational structures.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'March 2024 - May 2024',
+    location: (
+      <a
+        href="https://www.metalympics.org/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-900 font-bold text-lg hover:text-blue-700">
+        Metalympics Limited, Hong Kong
+      </a>
+    ),
+    title: 'Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Developed iOS mobile applications with ReactJS and React Native, focusing on seamless user experiences and
+        integrating backend services like AWS Amplify. Enhanced app performance, reliability, and efficiency by
+        addressing bugs and optimizing features while aligning UI/UX planning with business strategies. Ensured all
+        solutions were user-friendly, reliable, and scalable using Swift, TypeScript, and DevOps practices.
+      </p>
+    ),
+  },
+  {
+    date: 'December 2023 - January 2024',
+    location: (
+      <a
+        href="https://www.oxbridge-econ.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-900 font-bold text-lg hover:text-blue-700">
+        Oxbridge Economics Limited, Hong Kong
+      </a>
+    ),
+    title: 'Software Engineer',
+    content: (
+      <p>
+        Optimized search accuracy and data retrieval efficiency by 10% using a fuzzy search algorithm on DB collections.
+        Improved user experience by coordinating backend and frontend services (JSON, REST, SQL, Kotlin, Java) and
+        developing a React dashboard demo with Plotly’s AI/ML capabilities. Gained hands-on experience with AWS
+        technologies, including S3, Lambda, CloudWatch, AWS instances, and Shell scripting with Python.
       </p>
     ),
   },
