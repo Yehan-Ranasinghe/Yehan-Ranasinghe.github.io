@@ -143,6 +143,7 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+
   {
     name: 'Frontend development',
     skills: [
@@ -387,28 +388,28 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'I would Love To Connect With You.',
+  description: 'Let me get to know more about you.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'lakvinduyehan@gmail.com',
+      href: 'mailto:lakvinduyehan@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Clear Water Bay, Hong Kong',
+      href: 'hhttps://www.google.com/maps/place/Clear+Water+Bay,+Hong+Kong/@22.3092909,114.0969113,11z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3404030c2054f63b:0x4b8623a3ca4e3b08!2sClear+Water+Bay!8m2!3d22.2851406!4d114.2940282!16zL20vMDN4NGdt!3m5!1s0x340403f324a97f77:0x4d488ecc4b81b6dc!8m2!3d22.3207164!4d114.2713158!16s%2Fg%2F12xq7v8ny?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@r_yehan',
+      href: 'https://www.instagram.com/r_yehan/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Yehan-Ranasinghe',
+      href: 'https://github.com/Yehan-Ranasinghe',
     },
   ],
 };
@@ -417,9 +418,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Yehan-Ranasinghe'},
   {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/yehan-ranasinghe/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/r_yehan/'},
+  {label: 'X', Icon: TwitterIcon, href: 'https://x.com/lakvindutm'},
 ];
