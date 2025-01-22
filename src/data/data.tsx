@@ -8,6 +8,10 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+import kpmgLogo from '../assets/kpmg-logo.svg';
+import metalympicsLogo from '../assets/metalympics-logo.jpeg';
+import oxbridgeLogo from '../assets/oxbridge-logo.png';
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -103,12 +107,10 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Hey there! I’m a third-year Computer Science and AI student at HKUST, 
-  with a passion for transforming ideas into innovative solutions through code.
-  I specialize in building intuitive, scalable systems that merge technical expertise with business insight.
-  Whether I’m developing apps, diving into AI, or brainstorming the next big startup idea, 
-    I’m always focused on creating impactful tech that’s both fun and accessible. Outside of coding,
-     I love exploring different cultures and collaborating on exciting projects. Let’s connect and make something great together!`,
+  description: `Hey! I’m a 3rd-year Computer Science and AI student at HKUST, passionate about turning ideas into innovative solutions through code. 
+  I specialize in building intuitive, scalable systems that blend technical skills with business insight. 
+  Whether it’s developing apps, exploring AI, or brainstorming the next big startup idea, I love creating impactful and fun tech. 
+  Outside of coding, I enjoy exploring different cultures and collaborating on exciting projects. Let’s connect and build something awesome!`,
   aboutItems: [
     {label: 'Location', text: 'Clear Water Bay, Hong Kong', Icon: MapIcon},
     {label: 'Age', text: '20', Icon: CalendarIcon},
@@ -216,6 +218,12 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage2,
   },
   {
+    title: 'Personal Website',
+    description: 'Built a responsive, modern portfolio using React and Tailwind.',
+    url: 'https://yehan-ranasinghe.vercel.app/',
+    image: porfolioImage4, // Replace with an actual image
+  },
+  {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
@@ -294,7 +302,6 @@ export const education: TimelineItem[] = [
   //   content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   // },
 ];
-
 export const experience: TimelineItem[] = [
   {
     date: 'June 2024 - July 2024',
@@ -307,13 +314,14 @@ export const experience: TimelineItem[] = [
         KPMG, China
       </a>
     ),
-    title: 'Cyber Security and Technology Risk Summer Intern - Advisory',
+    title: 'Cyber Security & Technology Risk Intern - Advisory',
     content: (
-      <p>
-        Conducted ethical hacking simulations, penetration tests, and security reviews, identifying vulnerabilities like
-        SQL injection and XSS. Collaborated on cloud security and DevSecOps transformations, and provided strategic
-        cybersecurity guidance to CISOs to enhance organizational defenses.
-      </p>
+      <ul className="list-disc ml-5 space-y-1">
+        <li>Executed ethical hacking simulations, penetration testing, and security architecture reviews.</li>
+        <li>Identified vulnerabilities such as SQL injection, XSS, and session fixation.</li>
+        <li>Worked on cloud security, DevSecOps transformation, and cybersecurity strategy for CISOs.</li>
+        <li>Researched Distributed Ledger Technology (DLT) risks in financial institutions.</li>
+      </ul>
     ),
   },
   {
@@ -329,12 +337,12 @@ export const experience: TimelineItem[] = [
     ),
     title: 'Software Engineer',
     content: (
-      <p>
-        Developed user-centric iOS applications using ReactJS and React Native, integrating backend services like AWS
-        Amplify. Improved app performance and reliability by addressing bugs, optimizing features, and aligning UI/UX
-        designs with business strategies. Leveraged Swift, TypeScript, and DevOps tools to ensure scalability and
-        usability.
-      </p>
+      <ul className="list-disc ml-5 space-y-1">
+        <li>Developed user-friendly iOS applications using ReactJS and React Native.</li>
+        <li>Integrated backend services with AWS Amplify for seamless data flow.</li>
+        <li>Enhanced app performance and UI/UX based on business needs and user feedback.</li>
+        <li>Worked with Swift, TypeScript, and DevOps tools to optimize scalability and usability.</li>
+      </ul>
     ),
   },
   {
@@ -350,16 +358,15 @@ export const experience: TimelineItem[] = [
     ),
     title: 'Software Engineer',
     content: (
-      <p>
-        Enhanced data retrieval efficiency by 10% with a fuzzy search algorithm. Improved user experience by integrating
-        backend and frontend services (JSON, REST, SQL, Kotlin, Java) and creating a React dashboard powered by Plotly's
-        AI/ML tools. Gained expertise in AWS technologies, including S3, Lambda, CloudWatch, and Shell scripting with
-        Python.
-      </p>
+      <ul className="list-disc ml-5 space-y-1">
+        <li>Boosted data retrieval efficiency by 10% using a fuzzy search algorithm.</li>
+        <li>Developed a React dashboard integrating AI/ML tools from Plotly.</li>
+        <li>Connected frontend and backend services (JSON, REST, SQL, Kotlin, Java) for a seamless experience.</li>
+        <li>Gained hands-on experience with AWS (S3, Lambda, CloudWatch) and Python scripting.</li>
+      </ul>
     ),
   },
 ];
-
 /**
  * Testimonial section
  */
@@ -398,9 +405,14 @@ export const contact: ContactSection = {
       href: 'mailto:lakvinduyehan@gmail.com',
     },
     {
+      type: ContactType.LinkedIn,
+      text: 'linkedin.com/in/yehan-ranasinghe',
+      href: 'https://www.linkedin.com/in/yehan-ranasinghe/',
+    },
+    {
       type: ContactType.Location,
       text: 'Clear Water Bay, Hong Kong',
-      href: 'hhttps://www.google.com/maps/place/Clear+Water+Bay,+Hong+Kong/@22.3092909,114.0969113,11z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3404030c2054f63b:0x4b8623a3ca4e3b08!2sClear+Water+Bay!8m2!3d22.2851406!4d114.2940282!16zL20vMDN4NGdt!3m5!1s0x340403f324a97f77:0x4d488ecc4b81b6dc!8m2!3d22.3207164!4d114.2713158!16s%2Fg%2F12xq7v8ny?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D',
+      href: 'https://www.google.com/maps/place/Clear+Water+Bay,+Hong+Kong/@22.3092909,114.0969113,11z/data=!3m1!4b1!4m14!1m7!3m6!1s0x3404030c2054f63b:0x4b8623a3ca4e3b08!2sClear+Water+Bay!8m2!3d22.2851406!4d114.2940282!16zL20vMDN4NGdt!3m5!1s0x340403f324a97f77:0x4d488ecc4b81b6dc!8m2!3d22.3207164!4d114.2713158!16s%2Fg%2F12xq7v8ny?entry=ttu&g_ep=EgoyMDI1MDExMC4wIKXMDSoASAFQAw%3D%3D',
     },
     {
       type: ContactType.Instagram,
