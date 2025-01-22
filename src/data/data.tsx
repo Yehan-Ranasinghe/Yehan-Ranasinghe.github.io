@@ -9,7 +9,7 @@ import {
 } from '@heroicons/react/24/outline';
 
 import kpmgLogo from '../assets/kpmg-logo.svg';
-import metalympicsLogo from '../assets/metalympics-logo.jpeg';
+import metalympicsLogo from '../assets/metalympics-logo.png';
 import oxbridgeLogo from '../assets/oxbridge-logo.png';
 
 import GithubIcon from '../components/Icon/GithubIcon';
@@ -307,10 +307,11 @@ export const experience: TimelineItem[] = [
     date: 'June 2024 - July 2024',
     location: (
       <a
-        className="text-blue-900 font-bold text-lg hover:text-blue-700"
+        className="text-blue-900 font-bold text-lg hover:text-blue-700 flex items-center"
         href="https://home.kpmg/"
         rel="noopener noreferrer"
         target="_blank">
+        <img src={kpmgLogo} alt="KPMG Logo" className="w-8 h-8 mr-2" />
         KPMG, China
       </a>
     ),
@@ -328,10 +329,11 @@ export const experience: TimelineItem[] = [
     date: 'March 2024 - May 2024',
     location: (
       <a
-        className="text-blue-900 font-bold text-lg hover:text-blue-700"
+        className="text-blue-900 font-bold text-lg hover:text-blue-700 flex items-center"
         href="https://www.metalympics.org/"
         rel="noopener noreferrer"
         target="_blank">
+        <img src={metalympicsLogo} alt="Metalympics Logo" className="w-8 h-8 mr-2" />
         Metalympics Limited, Hong Kong
       </a>
     ),
@@ -349,10 +351,11 @@ export const experience: TimelineItem[] = [
     date: 'December 2023 - January 2024',
     location: (
       <a
-        className="text-blue-900 font-bold text-lg hover:text-blue-700"
+        className="text-blue-900 font-bold text-lg hover:text-blue-700 flex items-center"
         href="https://www.oxbridge-econ.com"
         rel="noopener noreferrer"
         target="_blank">
+        <img src={oxbridgeLogo} alt="Oxbridge Economics Logo" className="w-8 h-8 mr-2" />
         Oxbridge Economics Limited, Hong Kong
       </a>
     ),
