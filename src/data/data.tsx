@@ -1,3 +1,4 @@
+// External imports
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
@@ -8,14 +9,10 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-import kpmgLogo from '../assets/kpmg-logo.svg';
-import metalympicsLogo from '../assets/metalympics-logo.png';
-import oxbridgeLogo from '../assets/oxbridge-logo.png';
-
-import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
-import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// Internal imports
+import kpmgLogo from '/kpmg-logo.svg';
+import metalympicsLogo from '/metalympics-logo.png';
+import oxbridgeLogo from '/oxbridge-logo.png';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -30,6 +27,14 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
+
+// Component imports
+import GithubIcon from '../components/Icon/GithubIcon';
+import InstagramIcon from '../components/Icon/InstagramIcon';
+import LinkedInIcon from '../components/Icon/LinkedInIcon';
+import TwitterIcon from '../components/Icon/TwitterIcon';
+
+// Data imports
 import {
   About,
   ContactSection,
@@ -311,7 +316,7 @@ export const experience: TimelineItem[] = [
         href="https://home.kpmg/"
         rel="noopener noreferrer"
         target="_blank">
-        <img src={kpmgLogo} alt="KPMG Logo" className="w-8 h-8 mr-2" />
+        <img alt="KPMG Logo" className="w-8 h-8 mr-2" src={kpmgLogo} />
         KPMG, China
       </a>
     ),
@@ -333,7 +338,7 @@ export const experience: TimelineItem[] = [
         href="https://www.metalympics.org/"
         rel="noopener noreferrer"
         target="_blank">
-        <img src={metalympicsLogo} alt="Metalympics Logo" className="w-8 h-8 mr-2" />
+        <img alt="Metalympics Logo" className="w-8 h-8 mr-2" src={metalympicsLogo} />
         Metalympics Limited, Hong Kong
       </a>
     ),
@@ -355,7 +360,7 @@ export const experience: TimelineItem[] = [
         href="https://www.oxbridge-econ.com"
         rel="noopener noreferrer"
         target="_blank">
-        <img src={oxbridgeLogo} alt="Oxbridge Economics Logo" className="w-8 h-8 mr-2" />
+        <img alt="Oxbridge Economics Logo" className="h-8 mr-2 w-8" src={oxbridgeLogo} />
         Oxbridge Economics Limited, Hong Kong
       </a>
     ),
