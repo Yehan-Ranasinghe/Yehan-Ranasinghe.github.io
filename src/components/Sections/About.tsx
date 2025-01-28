@@ -1,4 +1,4 @@
-import {useEffect, useRef, useState, FC, memo} from 'react';
+import {FC, memo, useEffect, useRef, useState} from 'react';
 import classNames from 'classnames';
 import Image from 'next/image';
 

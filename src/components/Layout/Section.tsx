@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import {FC, memo, forwardRef, ReactNode} from 'react';
+import {forwardRef, ReactNode} from 'react';
 import {SectionId} from '../../data/data';
 
 // Forwarding the ref to the section element
