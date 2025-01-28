@@ -107,6 +107,22 @@ export interface Testimonial {
   text: string;
 }
 
+// /**
+//  * Leadership Activities section
+//  */
+// export interface LeadershipActivitiesSection {
+//   imageSrc?: string | StaticImageData;
+//   activities: LeadershipActivity[];
+// }
+
+// export interface LeadershipActivity {
+//   image?: string;
+//   title: string;
+//   date: string;
+//   organization: string;
+//   description: string[];
+// }
+
 /**
  * Contact section
  */

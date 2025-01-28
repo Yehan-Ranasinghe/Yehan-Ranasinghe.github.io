@@ -1,13 +1,23 @@
 import classNames from 'classnames';
-import {FC, memo, PropsWithChildren} from 'react';
-
+import {FC, memo, forwardRef, ReactNode} from 'react';
 import {SectionId} from '../../data/data';
 
-const Section: FC<
-  PropsWithChildren<{sectionId: SectionId; sectionTitle?: string; noPadding?: boolean; className?: string}>
-> = memo(({children, sectionId, noPadding = false, className}) => {
+// Forwarding the ref to the section element
+const Section = forwardRef<
+  HTMLDivElement,
+  {
+    sectionId: SectionId;
+    sectionTitle?: string;
+    noPadding?: boolean;
+    className?: string;
+    children: ReactNode;
+  }
+>(({children, sectionId, noPadding = false, className}, ref) => {
   return (
-    <section className={classNames(className, {'px-4 py-16 md:py-24 lg:px-8': !noPadding})} id={sectionId}>
+    <section
+      ref={ref} // Assigning the ref here
+      className={classNames(className, {'px-4 py-16 md:py-24 lg:px-8': !noPadding})}
+      id={sectionId}>
       <div className={classNames({'mx-auto max-w-screen-lg': !noPadding})}>{children}</div>
     </section>
   );

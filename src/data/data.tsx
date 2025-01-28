@@ -9,10 +9,6 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
-// Internal imports
-import kpmgLogo from '/kpmg-logo.svg';
-import metalympicsLogo from '/metalympics-logo.png';
-import oxbridgeLogo from '/oxbridge-logo.png';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -307,22 +303,27 @@ export const education: TimelineItem[] = [
   //   content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   // },
 ];
+
 export const experience: TimelineItem[] = [
   {
     date: 'June 2024 - July 2024',
     location: (
       <a
-        className="text-blue-900 font-bold text-lg hover:text-blue-700 flex items-center"
+        className="text-blue-900 font-bold text-xl hover:text-blue-700 flex items-center space-x-4"
         href="https://home.kpmg/"
         rel="noopener noreferrer"
         target="_blank">
-        <img alt="KPMG Logo" className="w-8 h-8 mr-2" src={kpmgLogo} />
-        KPMG, China
+        <img
+          alt="KPMG Logo"
+          className="w-12 h-12 hover:scale-110 transition-all duration-300 ease-in-out shadow-md"
+          src="/kpmg-logo.svg"
+        />
+        <span>KPMG, China</span>
       </a>
     ),
     title: 'Cyber Security & Technology Risk Intern - Advisory',
     content: (
-      <ul className="list-disc ml-5 space-y-1">
+      <ul className="list-disc ml-6 space-y-1 text-lg">
         <li>Executed ethical hacking simulations, penetration testing, and security architecture reviews.</li>
         <li>Identified vulnerabilities such as SQL injection, XSS, and session fixation.</li>
         <li>Worked on cloud security, DevSecOps transformation, and cybersecurity strategy for CISOs.</li>
@@ -334,17 +335,21 @@ export const experience: TimelineItem[] = [
     date: 'March 2024 - May 2024',
     location: (
       <a
-        className="text-blue-900 font-bold text-lg hover:text-blue-700 flex items-center"
+        className="text-blue-900 font-bold text-xl hover:text-blue-700 flex items-center space-x-4"
         href="https://www.metalympics.org/"
         rel="noopener noreferrer"
         target="_blank">
-        <img alt="Metalympics Logo" className="w-8 h-8 mr-2" src={metalympicsLogo} />
-        Metalympics Limited, Hong Kong
+        <img
+          alt="Metalympics Logo"
+          className="w-12 h-12 hover:scale-110 transition-all duration-300 ease-in-out shadow-md"
+          src="/metalympics-logo.png"
+        />
+        <span>Metalympics Limited, Hong Kong</span>
       </a>
     ),
     title: 'Software Engineer',
     content: (
-      <ul className="list-disc ml-5 space-y-1">
+      <ul className="list-disc ml-6 space-y-1 text-lg">
         <li>Developed user-friendly iOS applications using ReactJS and React Native.</li>
         <li>Integrated backend services with AWS Amplify for seamless data flow.</li>
         <li>Enhanced app performance and UI/UX based on business needs and user feedback.</li>
@@ -356,17 +361,21 @@ export const experience: TimelineItem[] = [
     date: 'December 2023 - January 2024',
     location: (
       <a
-        className="text-blue-900 font-bold text-lg hover:text-blue-700 flex items-center"
+        className="text-blue-900 font-bold text-xl hover:text-blue-700 flex items-center space-x-4"
         href="https://www.oxbridge-econ.com"
         rel="noopener noreferrer"
         target="_blank">
-        <img alt="Oxbridge Economics Logo" className="h-8 mr-2 w-8" src={oxbridgeLogo} />
-        Oxbridge Economics Limited, Hong Kong
+        <img
+          alt="Oxbridge Economics Logo"
+          className="w-12 h-12 hover:scale-110 transition-all duration-300 ease-in-out shadow-md"
+          src="/oxbridge-logo.png"
+        />
+        <span>Oxbridge Economics Limited, Hong Kong</span>
       </a>
     ),
     title: 'Software Engineer',
     content: (
-      <ul className="list-disc ml-5 space-y-1">
+      <ul className="list-disc ml-6 space-y-1 text-lg">
         <li>Boosted data retrieval efficiency by 10% using a fuzzy search algorithm.</li>
         <li>Developed a React dashboard integrating AI/ML tools from Plotly.</li>
         <li>Connected frontend and backend services (JSON, REST, SQL, Kotlin, Java) for a seamless experience.</li>
@@ -375,6 +384,7 @@ export const experience: TimelineItem[] = [
     ),
   },
 ];
+
 /**
  * Testimonial section
  */
